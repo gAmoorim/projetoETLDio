@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Joao",
+        "news": [
+            {
+                "descrição": "Olá Joao, Estaria disposto a criar sua conta em nosso banco?!"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Thiago",
+        "news": [
+            {
+                "descrição": "Olá Thiago, Estaria disposto a criar sua conta em nosso banco?!"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Alex",
+        "news": [
+            {
+                "descrição": "Olá Alex, Estaria disposto a criar sua conta em nosso banco?!"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Meire",
+        "news": [
+            {
+                "descrição": "Olá Meire, Estaria disposto a criar sua conta em nosso banco?!"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Nyvi",
+        "news": [
+            {
+                "descrição": "Olá Nyvi, Estaria disposto a criar sua conta em nosso banco?!"
+            }
+        ]
+    }
+]
