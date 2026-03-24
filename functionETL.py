@@ -33,11 +33,10 @@ def extracao_users(csv_files):
 
 def transform(users):
     for user in users:
-        mensagem = f"Olá {user['name']}, Que tal começar a investir hoje?! Pequenas decisões financeiras podem construir um grande futuro!"
+        mensagem = f"Olá {user['name']}, Estaria disposto a criar sua conta em nosso banco?!"
 
         user['news'].append({
-            "icon":"https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
-            "description":mensagem.strip()
+            "descrição":mensagem.strip()
         })
     return users    
 
@@ -58,7 +57,7 @@ def load(users):
     with open("resultado_etl.json","w",encoding="utf-8") as f:
         json.dump(updated,f,indent=4,ensure_ascii=False)
 
-    print("ETL finalizado. Arquivo salvo.")
+    print("Arquivo ETL criado.")
 
 users = extracao_users("SDW2023.csv")
 users = transform(users)
