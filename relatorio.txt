@@ -1,0 +1,73 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+**Data:** 30/03/2026
+**Empresa:** Abstergo Industries
+**Responsável:** Gabriel Amorim
+
+---
+
+## Introdução
+
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries. O objetivo do projeto foi selecionar 3 serviços AWS com a finalidade de reduzir custos operacionais de forma imediata, mantendo alta performance, segurança e escalabilidade — fatores essenciais no setor farmacêutico.
+
+---
+
+## Descrição do Projeto
+
+O projeto de implementação foi dividido em 3 etapas, cada uma com objetivos específicos voltados à otimização de recursos e redução de custos.
+
+---
+
+### Etapa 1:
+
+* **Nome da ferramenta:** Amazon S3
+* **Foco da ferramenta:** Armazenamento escalável e de baixo custo
+* **Descrição de caso de uso:**
+  A empresa utiliza o Amazon S3 para armazenar dados clínicos, documentos regulatórios e arquivos de pesquisa. Para reduzir custos, foram aplicadas políticas de ciclo de vida, movendo automaticamente dados antigos para classes mais baratas como Glacier.
+  **Redução de custos:** diminuição significativa com armazenamento de dados pouco acessados.
+  **Principal ganho:** alta durabilidade e segurança com custo otimizado.
+
+---
+
+### Etapa 2:
+
+* **Nome da ferramenta:** Amazon DynamoDB
+* **Foco da ferramenta:** Banco de dados NoSQL escalável e de alta performance
+* **Descrição de caso de uso:**
+  Os sistemas de análise e processamento de dados farmacêuticos foram estruturados utilizando o DynamoDB para armazenar grandes volumes de dados de forma rápida e eficiente, garantindo baixa latência mesmo com alto volume de requisições.
+  **Redução de custos:** modelo sob demanda e escalabilidade automática, evitando provisionamento excessivo de capacidade.
+  **Principal ganho:** alta performance com escalabilidade automática e baixa latência nas consultas.
+
+---
+
+### Etapa 3:
+
+* **Nome da ferramenta:** AWS CloudFormation
+* **Foco da ferramenta:** Infraestrutura como Código (IaC)
+* **Descrição de caso de uso:**
+  A infraestrutura da empresa passou a ser criada e gerenciada via templates automatizados, evitando erros humanos e ambientes desnecessários ativos.
+  **Redução de custos:** controle total dos recursos provisionados e eliminação de desperdícios.
+  **Principal ganho:** padronização, automação e governança da infraestrutura.
+
+---
+
+## Conclusão
+
+A implementação dessas ferramentas na empresa *Abstergo Industries* trouxe como benefícios a redução de custos operacionais, maior eficiência no uso de recursos e aumento da produtividade da equipe técnica. Além disso, garantiu maior controle sobre a infraestrutura e melhor escalabilidade dos sistemas.
+
+Recomenda-se a continuidade da utilização das ferramentas implementadas e a adoção de novas soluções AWS que possam otimizar ainda mais os processos da empresa.
+
+---
+
+## Anexos
+
+* Documentação Amazon S3: https://docs.aws.amazon.com/s3/
+* Documentação Amazon DynamoDB: https://docs.aws.amazon.com/pt_br/amazondynamodb/latest/developerguide/Introduction.html
+* Documentação AWS CloudFormation: https://docs.aws.amazon.com/cloudformation/
+* AWS Pricing (custos): https://aws.amazon.com/pricing/
+
+---
+
+**Assinatura do Responsável pelo Projeto:**
+
+Gabriem Amorim
